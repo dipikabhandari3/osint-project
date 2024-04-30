@@ -28,8 +28,5 @@ This is a console application built with python that allows users to retrieve, v
   
 ## Images
 
-![](.screenshots/screen1.png)
+![](screenshots/mainWindow.png)
 
-![](.screenshots/screen2.png)
-
-![](.screenshots/screen3.png)
