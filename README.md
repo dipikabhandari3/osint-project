@@ -30,6 +30,8 @@ This script is a comprehensive data collection tool using a graphical user inter
 
 ![](screenshots/mainWindow.png)
 
+#### Output of the generated files can be seen inside of exampleFiles folder
+
 **Run the Application:**
 ##### Open the terminal where file is placed and run the command 
 
