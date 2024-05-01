@@ -22,7 +22,8 @@ This script is a comprehensive data collection tool using a graphical user inter
 
 **Install Dependencies:**
 
-        pip install instaloader 
+        pip install pandas 
+        pip install instaloader
         pip install snscrape
         pip install praw
   
