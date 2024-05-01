@@ -10,7 +10,7 @@ This script is a comprehensive data collection tool using a graphical user inter
 
 - **Twitter Details:** Similar to Instagram, users can input a Twitter username to fetch details such as screen name, real name, follower count, following count, and total tweets.
 
-- **Reddit Details:** Users can input a Reddit username to retrieve details such as username, post karma, comment karma, total posts, total comments, and the list of recent posts and comments.
+- **Sub-Reddit Details:** Users can input a sub-reddit username/id to retrieve details such as username, post karma, comment karma, total posts, total comments, and the list of recent posts and comments.
 
 ##### Note: All the information above will be saved in their respective file based on the name they enter. 
 
@@ -53,7 +53,7 @@ This script is a comprehensive data collection tool using a graphical user inter
 - Enter a Twitter username in the provided input field and click the "Retrieve" button.
 - View the retrieved user details from the .csv file.
 
-4. **Reddit Details:**
-- Enter a Reddit username in the provided input field and click the "Retrieve" button.
+4. **Sub-Reddit Details:**
+- Enter a sub-reddit username/id in the provided input field and click the "Retrieve" button.
 - View the retrieved user details and recent post details.
 
