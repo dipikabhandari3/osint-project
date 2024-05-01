@@ -6,37 +6,27 @@ import tkinter as tk
 from tkinter import *
 import instaloader
 import praw
-import snscrape.modules.twitter as snscrapetwitter
+from ntscraper import Nitter
 import csv
 
 # Function to search Twitter
 def search_twt():
     # Get the query from the entry field
-    qry = twtentrybox.get().strip() 
+    qry = twtentrybox.get().strip()
+    lim = 100
+
+    scraper = Nitter(log_level=1)
     tweets = []
-    lim = 10
-    # Search Twitter using snscrape
-    # search = snscrapetwitter.TwitterSearchScraper(qry)
-    search =snscrapetwitter.TwitterSearchScraper('from:jack').get_items()
-   # for i,tweet in enumerate(): #declare a username 
+    # Search for tweets
+    search = scraper.get_tweets(qry, mode = 'user', number = lim)
 
-    # print("user twitter data", search)
+    for tweet in search["tweets"]: 
+        tweets.append([tweet['date'], tweet['user']['username'], tweet['user']['name'], tweet['text'], tweet['stats']['comments'], tweet['stats']['retweets'], tweet['stats']['likes']])
 
-    # return
-    try:
-        # for tweet in search.get_items():
-        for i,tweet in enumerate(snscrapetwitter.TwitterSearchScraper('from:jack').get_items()): #declare a username 
+    # Create a DataFrame from the collected tweets and save it to a CSV file
+    frm = pd.DataFrame(tweets, columns=["Date", "Username", "Displayname", "Tweet Content", "Amount of Replies", "Retweet Count", "Like Count"]) 
+    frm.to_csv(f"{qry}.csv")
 
-            if len(tweets) == lim:
-                break
-            # Store relevant tweet information
-            tweets.append([tweet.date, tweet.user.username, tweet.user.displayname, tweet.rawContent, tweet.replyCount, tweet.retweetCount, tweet.likeCount])
-
-        # Create a DataFrame from the collected tweets and save it to a CSV file
-        frm = pd.DataFrame(tweets, columns=["Date", "Username", "Displayname", "Tweet Content", "Amount of Replies", "Retweet Count", "Like Count"]) 
-        frm.to_csv(f"{qry}.csv")
-    except snscrape.base.ScraperException as e:
-        print("Failed to scrape tweets:", e)
 
 # Function to search Instagram
 def search_inst():
@@ -83,7 +73,7 @@ def search_reddit():
     subreddit = reddit.subreddit(subreddit_name)
  
     # Write subreddit information to a text file
-    curFile = open(f"{subreddit_name}.txt", "w")
+    curFile = open(f"{subreddit_name}.txt", "w", encoding='utf-8')
     curFile.write(f"Subreddit name: {subreddit.display_name}\n")
     curFile.write(f"Subreddit title: {subreddit.title}\n")
     curFile.write(f"Subreddit description: {subreddit.description}\n")
