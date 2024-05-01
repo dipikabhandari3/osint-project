@@ -22,9 +22,10 @@ This script is a comprehensive data collection tool using a graphical user inter
 
 **Install Dependencies:**
 
-        pip install pandas 
+        pip install pandas
+        pip install tqdm
         pip install instaloader
-        pip install snscrape
+        pip install ntscraper
         pip install praw
   
 ## Images
