@@ -57,3 +57,6 @@ This script is a comprehensive data collection tool using a graphical user inter
 - Enter a sub-reddit username/id in the provided input field and click the "Retrieve" button.
 - View the retrieved user details and recent sub-reddit post details.
 
+
+NOTE: Output files from application are placed in Output folder in github. But when running the application, the output files will be generated in same path where the application.py file is.  
+
