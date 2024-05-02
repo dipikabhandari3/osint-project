@@ -1,6 +1,0 @@
-City Name: kathmandu
-Weather Condition: haze
-Temperature: 80.82 Fahrenheit
-Humidity: 26 %
-Wind Speed: 1.03 mph
-Pressure: 1012 inHg
