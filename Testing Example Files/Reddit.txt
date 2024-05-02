@@ -1,0 +1,44 @@
+Subreddit name: Reddit
+Subreddit title: reddit 
+Subreddit description: 
+Subreddit URL: /r/reddit/
+Subreddit subscribers: 220257
+
+Last 10 comments:
+dembonezz: I'm browsing Reddit today from desktop, and while I wasn't initially fond of the new layout, it's growing on me. I do notice an issue, though. As I scroll the feed, (currently set to rising) I'm seeing the same posts over and over. Is there something going on to make it appear as though there are more posts, or is it just not remembering where I am in the feed?  
+  
+Beyond that minor annoyance, great work to keep things moving forward!
+A7O747D: How does one patch it?
+ballsonrawls: When
+ballsonrawls: Please remove the side video/photo when reading comments. I don't have tik tok for this reason
+Ean_Bvading: I still use it. Just patch it
+Ean_Bvading: If you patch them on Android they never went away
+Ean_Bvading: Still using patches third party app here, can't stop won't stop
+azurstarshine: In fact, you wouldn't even be able to *vote* on wisdom_and_frivolity's comment.
+
+What's especially stupid is that if the blocked user logs out (or opens the page in another browser that's not logged in), then they can see the comments from a blocked. This allows blocked users to reply to the content without actually replying to the comment; all they need to do is copy/paste it into a quote to give their remarks context. I've personally done so because the person who blocked me was giving bad advice. (Not surprising when the reason they blocked me was because they were annoyed that I told them they had worded something in a misleading way. lol.)
+azurstarshine: > Improving the user experience.
+
+The new interface pushed out in the past month or so has drastically degraded my user experience. It has distracting sidebars that constantly get in the way of the content I'm actually trying to read/view. It's just way, *way* too cluttered. On top of that, it breaks my default to Markdown editor setting; I *despise* WYSIWYG editors.
+
+Trying to revert to the previous interface has been an utter nightmare, too. I know you can go to `new.reddit.com` to switch back, but there are a bunch of links that go back to `wwww.reddit.com` instead (including notifications). This is nothing but poor implementation. There is no reason why any of the Reddit links on the page needs to be absolute; they should have all been relative to the site's root (`/r/AzurLane/comments/...` instead of `https://reddit.com/r/AzurLane/comments/...`). About 10 minutes ago, my main subreddit's front page was forcibly redirecting to `www.reddit.com` as well, which would have forced me to change `www` to `new` on every single post I opened. (I have absolutely no idea why it changed or why it is not redirecting me now.)
+
+I'm not someone who's unable to adapt to change. I don't try to use old.reddit.com; I know it's outdated and clunky and even kind of ugly. But making a bunch of irrelevant content blend in with the page's unique content and then making it sticky so it *never* goes away is too much. If there were an option to minimize/hide it, I could probably get used to the updates (even though I am not a fan of the updated layout of individual posts on the feed), but instead it's just a bunch of irrelevant stuff that I already know about that I can't easily screen out constantly vying for my attention. It feels like trying to use a GeoCities site from the 90s with all the ads they injected.
+exsisto: Hi gang. One of the elements of the new feed I like are the suggested subs where random posts from subs that are similar to other subs I've shown interest in show up in my feed.
+
+Odd, however, that I have suddenly seen a tremendous uptick in the number of Spanish language subreddits suggested in my feed, despite the fact I do not speak Spanish, have never visited a Spanish language subreddit, and as best I can tell have shown no interest in anything remotely related to Spanish language content.
+
+This is annoying. I have liberally used the "Show less of this" option, and it does not seem to be working. This seems like a bug (rather than a feature) now. How can I resolve this? Thanks.
+waresmarufy: The new reddit up sucks
+kentsta: I don’t get how the massive uptick in bots posing as regular users isn’t mentioned as one of your points.
+
+This is one of the main developing problems with Reddit. If you ignore it because bots increase usage metrics, Reddit will suffer and fall into ruin.
+Iforgetmyreddit: How about enabling desktop old reddit as default? Have to jump through a bunch of hoops for it and it doesn't stay.  
+New reddit look on mobile is making me use reddit less.
+codmobileuser: Where my posts
+codmobileuser: Where is my fucking post reddit
+codmobileuser: What the fuck is up with you not putting my post in the community I posted it in reddit
+codmobileuser: Why the fuck are you censoring what I can and can’t post reddit
+codmobileuser: Where the fuck is my post at reddit
+codmobileuser: Where the fuck is my post? I submitted and it’s not showing up in the community
+codmobileuser: Where the fuck is my post? I submitted and it’s not showing up in the community
