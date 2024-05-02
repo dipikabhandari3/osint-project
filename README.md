@@ -6,7 +6,7 @@ This script is a comprehensive data collection tool using a graphical user inter
 
 - **Instagram Details:** Users can input an Instagram username to retrieve details such as username, profileImage, full name, follower count, bio, following count, total posts, private status.
 
-- **Weather Report:** Users can input a city name to retrieve details about the weather of their city, this includes weather condition, temperature, humudity, wind speed and pressure.
+- **Weather Reports:** Users can input a city name to retrieve details about the weather of their city, this includes weather condition, temperature, humudity, wind speed and pressure.
 
 - **Twitter Details:** Similar to Instagram, users can input a Twitter username to fetch details such as screen name, real name, follower count, following count, and total tweets.
 
