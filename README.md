@@ -2,6 +2,9 @@
 
 This script is a comprehensive data collection tool using a graphical user interface (GUI) built with Tkinter. It interacts with several online platforms—Twitter, Instagram, Reddit, and a weather API—to fetch and save relevant data based on user input.
 
+## Presentation Recorded Video Link 
+https://drive.google.com/file/d/1bosNryj6CfqlEYH1L6-HsF3YFEQ4hNCB/view?usp=sharing
+
 ## Features
 
 - **Instagram Details:** Users can input an Instagram username to retrieve details such as username, profileImage, full name, follower count, bio, following count, total posts, private status.
